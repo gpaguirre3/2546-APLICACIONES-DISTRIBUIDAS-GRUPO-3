@@ -1,0 +1,33 @@
+services:
+  ProductManagement:
+    container_name: product-service
+    image: gabrielaguirre1104074/crud-producto:latest
+    build: 
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    environment:
+      - spring.datasource.url=jdbc:postgresql://db-postgres:5432/ProductManagement
+      - spring.datasource.username=postgres
+      - spring.datasource.password=postgres
+    depends_on:
+      db-postgres:
+        condition: service_healthy
+
+  db-postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ProductManagement
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 2s
+      timeout: 3s
+      retries: 10
+      start_period: 2s
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
