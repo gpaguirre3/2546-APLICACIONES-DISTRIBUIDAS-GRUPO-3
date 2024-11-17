@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\G3ClienteSoapCalculadora\bin\Debug\G3ClienteSoapCalculadora.exe.config
+C:\Users\User\source\repos\G3ClienteSoapCalculadora\bin\Debug\G3ClienteSoapCalculadora.exe
+C:\Users\User\source\repos\G3ClienteSoapCalculadora\bin\Debug\G3ClienteSoapCalculadora.pdb
+C:\Users\User\source\repos\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.Form1.resources
+C:\Users\User\source\repos\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.Properties.Resources.resources
+C:\Users\User\source\repos\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.csproj.GenerateResource.cache
+C:\Users\User\source\repos\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.exe
+C:\Users\User\source\repos\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.pdb
