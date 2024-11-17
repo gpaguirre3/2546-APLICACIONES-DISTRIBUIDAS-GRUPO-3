@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v2.3.7 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.11.16 a las 02:04:21 PM ECT 
+
+  -->
+      
+    <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="espe.edu.ec.SoapClient.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:Add">
+                  
+            <class ref="espe.edu.ec.SoapClient.wsdl.Add"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:AddResponse">
+                  
+            <class ref="espe.edu.ec.SoapClient.wsdl.AddResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Subtract">
+                  
+            <class ref="espe.edu.ec.SoapClient.wsdl.Subtract"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SubtractResponse">
+                  
+            <class ref="espe.edu.ec.SoapClient.wsdl.SubtractResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Multiply">
+                  
+            <class ref="espe.edu.ec.SoapClient.wsdl.Multiply"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:MultiplyResponse">
+                  
+            <class ref="espe.edu.ec.SoapClient.wsdl.MultiplyResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Divide">
+                  
+            <class ref="espe.edu.ec.SoapClient.wsdl.Divide"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DivideResponse">
+                  
+            <class ref="espe.edu.ec.SoapClient.wsdl.DivideResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
