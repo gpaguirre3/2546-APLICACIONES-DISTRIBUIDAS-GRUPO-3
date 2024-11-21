@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\LibreriaCliente\bin\Debug\LibreriaCliente.exe.config
+C:\Users\User\source\repos\LibreriaCliente\bin\Debug\LibreriaCliente.exe
+C:\Users\User\source\repos\LibreriaCliente\bin\Debug\LibreriaCliente.pdb
+C:\Users\User\source\repos\LibreriaCliente\obj\Debug\LibreriaCliente.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\LibreriaCliente\obj\Debug\LibreriaCliente.Form1.resources
+C:\Users\User\source\repos\LibreriaCliente\obj\Debug\LibreriaCliente.Properties.Resources.resources
+C:\Users\User\source\repos\LibreriaCliente\obj\Debug\LibreriaCliente.csproj.GenerateResource.cache
+C:\Users\User\source\repos\LibreriaCliente\obj\Debug\LibreriaCliente.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\LibreriaCliente\obj\Debug\LibreriaCliente.exe
+C:\Users\User\source\repos\LibreriaCliente\obj\Debug\LibreriaCliente.pdb
