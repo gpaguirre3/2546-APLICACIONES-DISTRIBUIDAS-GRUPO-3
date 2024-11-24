@@ -39,6 +39,8 @@ namespace LibreriaCliente.Libreria {
         
         private System.Threading.SendOrPostCallback DeleteBookOperationCompleted;
         
+        private System.Threading.SendOrPostCallback GetBookByIdOperationCompleted;
+        
         private bool useDefaultCredentialsSetExplicitly;
         
         /// <remarks/>
@@ -91,6 +93,9 @@ namespace LibreriaCliente.Libreria {
         
         /// <remarks/>
         public event DeleteBookCompletedEventHandler DeleteBookCompleted;
+        
+        /// <remarks/>
+        public event GetBookByIdCompletedEventHandler GetBookByIdCompleted;
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/HelloWorld", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
@@ -244,6 +249,35 @@ namespace LibreriaCliente.Libreria {
         }
         
         /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/GetBookById", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public string GetBookById(int id) {
+            object[] results = this.Invoke("GetBookById", new object[] {
+                        id});
+            return ((string)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void GetBookByIdAsync(int id) {
+            this.GetBookByIdAsync(id, null);
+        }
+        
+        /// <remarks/>
+        public void GetBookByIdAsync(int id, object userState) {
+            if ((this.GetBookByIdOperationCompleted == null)) {
+                this.GetBookByIdOperationCompleted = new System.Threading.SendOrPostCallback(this.OnGetBookByIdOperationCompleted);
+            }
+            this.InvokeAsync("GetBookById", new object[] {
+                        id}, this.GetBookByIdOperationCompleted, userState);
+        }
+        
+        private void OnGetBookByIdOperationCompleted(object arg) {
+            if ((this.GetBookByIdCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.GetBookByIdCompleted(this, new GetBookByIdCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
         public new void CancelAsync(object userState) {
             base.CancelAsync(userState);
         }
@@ -379,6 +413,32 @@ namespace LibreriaCliente.Libreria {
         private object[] results;
         
         internal DeleteBookCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public string Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((string)(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    public delegate void GetBookByIdCompletedEventHandler(object sender, GetBookByIdCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.9037.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class GetBookByIdCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal GetBookByIdCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
                 base(exception, cancelled, userState) {
             this.results = results;
         }

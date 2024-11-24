@@ -83,5 +83,26 @@ namespace ServicioLibros
             }
             return "Libro eliminado correctamente.";
         }
+        [WebMethod]
+        public string GetBookById(int id)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT * FROM Books WHERE Id = @Id";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Id", id);
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    return $"ID: {reader["Id"]}, Título: {reader["Title"]}, Autor: {reader["Author"]}, Año: {reader["Year"]}";
+                }
+                else
+                {
+                    return "Libro no encontrado.";
+                }
+            }
+        }
     }
 }

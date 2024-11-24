@@ -42,6 +42,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtResult = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnGetAll = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAddBook
@@ -80,7 +81,7 @@
             this.btnGetBooks.Name = "btnGetBooks";
             this.btnGetBooks.Size = new System.Drawing.Size(209, 23);
             this.btnGetBooks.TabIndex = 3;
-            this.btnGetBooks.Text = "Consultar";
+            this.btnGetBooks.Text = "Consultar por ID";
             this.btnGetBooks.UseVisualStyleBackColor = true;
             this.btnGetBooks.Click += new System.EventHandler(this.btnGetBooks_Click_1);
             // 
@@ -150,26 +151,38 @@
             // 
             // txtResult
             // 
-            this.txtResult.Location = new System.Drawing.Point(201, 267);
+            this.txtResult.Location = new System.Drawing.Point(201, 293);
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(587, 22);
+            this.txtResult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtResult.Size = new System.Drawing.Size(587, 63);
             this.txtResult.TabIndex = 12;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(238, 248);
+            this.label5.Location = new System.Drawing.Point(442, 274);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(69, 16);
             this.label5.TabIndex = 13;
             this.label5.Text = "Resultado";
+            // 
+            // btnGetAll
+            // 
+            this.btnGetAll.Location = new System.Drawing.Point(57, 255);
+            this.btnGetAll.Name = "btnGetAll";
+            this.btnGetAll.Size = new System.Drawing.Size(209, 23);
+            this.btnGetAll.TabIndex = 14;
+            this.btnGetAll.Text = "Consultar todos";
+            this.btnGetAll.UseVisualStyleBackColor = true;
+            this.btnGetAll.Click += new System.EventHandler(this.btnGetAll_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGetAll);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.label4);
@@ -207,6 +220,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtResult;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnGetAll;
     }
 }
 

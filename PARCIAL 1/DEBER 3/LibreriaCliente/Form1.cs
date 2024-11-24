@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 using LibreriaCliente.Libreria; // Asegúrate de que esto apunta al espacio de nombres correcto
 
@@ -76,18 +77,48 @@ namespace LibreriaCliente
             }
         }
 
+       
         private void btnGetBooks_Click_1(object sender, EventArgs e)
         {
             try
             {
+                int bookId;
+                if (int.TryParse(txtId.Text, out bookId))
+                {
+                    var book = client.GetBookById(bookId); // Llama al método en el servicio
+                    txtResult.Text = book;
+                }
+                else
+                {
+                    MessageBox.Show("Ingrese un ID válido.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
 
+        private void btnGetAll_Click(object sender, EventArgs e)
+        {
+            try
+            {
                 var books = client.GetBooks();
+
+                if (books == null || books.Length == 0)
+                {
+                    txtResult.Text = "No se encontraron libros.";
+                    return;
+                }
+
+                // Muestra todos los libros en el TextBox
                 txtResult.Text = string.Join(Environment.NewLine, books);
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
+
         }
     }
 }
