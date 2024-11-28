@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
+    //[Serializable]
     public class CategoryDTO
     {
         public int CategoryID { get; set; }

@@ -19,6 +19,13 @@ namespace Service.Controllers
             var createdCategory = categoryLogic.Create(category);
             return createdCategory;
         }
+        [HttpPost]
+        public CategoryDTO CreateDTO(CategoryDTO category)
+        {
+            var categoryLogic = new CategoryLogic();
+            var createdCategory = categoryLogic.CreateDTO(category);
+            return createdCategory;
+        }
 
         [HttpDelete]
         public bool Delete(int id)
@@ -60,10 +67,17 @@ namespace Service.Controllers
         }
 
         [HttpPut]
-        public bool Update(Categories categoryToUpdate)
+        public int Update(Categories categoryToUpdate)
         {
             var categoryLogic = new CategoryLogic();
             var result = categoryLogic.Update(categoryToUpdate);
+            return 1;
+        }
+        [HttpPut]
+        public bool UpdateDTO(CategoryDTO categoryToUpdate)
+        {
+            var categoryLogic = new CategoryLogic();
+            var result = categoryLogic.UpdateDTO(categoryToUpdate);
             return result;
         }
     }

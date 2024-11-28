@@ -28,7 +28,7 @@ namespace SLC
         List<Products> Filter(string name);
 
         // Obtener todos los productos
-        List<Products> GetAllProducts();
+       
 
        
     }

@@ -20,6 +20,13 @@ namespace Service.Controllers
             var product=productsLogic.Create(products);
             return product;
         }
+        [HttpPost]
+        public ProductDTO CreateProductDTO(ProductDTO products)
+        {
+            var productsLogic = new ProductLogic();
+            var product = productsLogic.CreateDTO(products);
+            return product;
+        }
         [HttpDelete]
         public bool Delete(int id)
         {
@@ -43,11 +50,7 @@ namespace Service.Controllers
             var product = productsLogic.FilterProducts(name);
             return product;
         }
-        //no implementado
-        public List<Products> GetAllProducts()
-        {
-            throw new NotImplementedException();
-        }
+       
 
         [HttpGet]
         public Products RetrieveProductById(int id)
@@ -58,7 +61,7 @@ namespace Service.Controllers
             return product;
         }
         //DTO
-        [HttpGet]
+        //[HttpGet]
         public ProductDTO GetProductById(int id)
         {
             // Llamamos al método de la lógica para buscar un producto por ID
@@ -71,6 +74,13 @@ namespace Service.Controllers
         {
             var productsLogic = new ProductLogic();
             var product = productsLogic.Update(productToUpdate);
+            return product;
+        }
+        [HttpPut]
+        public bool UpdateProductDTO(ProductDTO productToUpdate)
+        {
+            var productsLogic = new ProductLogic();
+            var product = productsLogic.UpdateDTO(productToUpdate);
             return product;
         }
     }

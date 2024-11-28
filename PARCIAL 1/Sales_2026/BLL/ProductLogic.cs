@@ -30,6 +30,48 @@ namespace BLL
                 return res;
             }
         }
+        public ProductDTO CreateDTO(ProductDTO productDTO)
+        {
+            ProductDTO res = null;
+            using (var r = RepositoryFactory.CreateRepository())
+            {
+                // Mapear el objeto ProductDTO a la entidad Products
+                var productEntity = new Products
+                {
+                    ProductName = productDTO.ProductName,
+                    UnitPrice = productDTO.UnitPrice,
+                    UnitsInStock = productDTO.UnitsInStock,
+                    CategoryID = productDTO.CategoryID // Asignar la categoría si está presente
+                };
+
+                // Verificar si ya existe un producto con el mismo nombre
+                Products existingProduct = r.Retrieve<Products>(p => p.ProductName == productEntity.ProductName);
+
+                if (existingProduct == null)
+                {
+                    // Crear el producto en la base de datos
+                    Products createdProduct = r.Create(productEntity);
+
+                    // Mapear la entidad creada a ProductDTO
+                    res = new ProductDTO
+                    {
+                        ProductID = createdProduct.ProductID, // Asignar el ID generado
+                        ProductName = createdProduct.ProductName,
+                        UnitPrice = createdProduct.UnitPrice,
+                        UnitsInStock = createdProduct.UnitsInStock,
+                        CategoryID = createdProduct.CategoryID // Asignar el ID de la categoría
+                    };
+                }
+                else
+                {
+                    // Lógica en caso de que el producto ya exista
+                    throw new Exception("El producto con este nombre ya existe.");
+                }
+            }
+            return res;
+        }
+
+
         //metodo para buscar
         public Products RetrieveById(int id)
         {
@@ -63,6 +105,40 @@ namespace BLL
             return res;
 
         }
+        //UPDATEDTO
+        public bool UpdateDTO(ProductDTO productToUpdate)
+        {
+            bool res = false;
+            using (var r = RepositoryFactory.CreateRepository())
+            {
+                // Mapear el objeto ProductDTO a la entidad Products
+                var productEntity = new Products
+                {
+                    ProductID = productToUpdate.ProductID,
+                    ProductName = productToUpdate.ProductName,
+                    UnitPrice = productToUpdate.UnitPrice,
+                    UnitsInStock = productToUpdate.UnitsInStock,
+                    CategoryID = productToUpdate.CategoryID // Asignar la categoría si está presente
+                };
+
+                // Validar que no haya otro producto con el mismo nombre y un ID diferente
+                Products temp = r.Retrieve<Products>(p => p.ProductName == productEntity.ProductName &&
+                                                          p.ProductID != productEntity.ProductID);
+
+                if (temp == null)
+                {
+                    // Actualizar el producto en la base de datos
+                    res = r.Update(productEntity);
+                }
+                else
+                {
+                    // Lógica en caso de que el nombre del producto ya esté en uso
+                    throw new Exception("Ya existe otro producto con el mismo nombre.");
+                }
+            }
+            return res;
+        }
+
         //metodo eliminar
         public bool Delete(int id)
         {
@@ -124,7 +200,7 @@ namespace BLL
                         UnitPrice = product.UnitPrice,
                         UnitsInStock = product.UnitsInStock,
                         CategoryID = product.CategoryID,
-                        CategoryName = product.Categories.CategoryName // Relacionamos la categoría
+                       //CategoryName = product.Categories.CategoryName // Relacionamos la categoría
                     };
                 }
             }
@@ -139,7 +215,7 @@ namespace BLL
             using (var r = RepositoryFactory.CreateRepository())
             {
                 // Filtra los productos por nombre
-                var products = r.Filter<Products>(p => p.ProductName.Contains(name));
+                var products = r.Filter<Products>(p => p.ProductName.Equals(name));
 
                 // Mapea los productos a ProductDTO
                 res = products.Select(p => new ProductDTO
@@ -149,7 +225,7 @@ namespace BLL
                     UnitPrice = p.UnitPrice,
                     UnitsInStock = p.UnitsInStock,
                     CategoryID = p.CategoryID,
-                    CategoryName = p.Categories.CategoryName  // Relaciona el nombre de la categoría
+                    //CategoryName = p.Categories.CategoryName  // Relaciona el nombre de la categoría
                 }).ToList();
             }
 

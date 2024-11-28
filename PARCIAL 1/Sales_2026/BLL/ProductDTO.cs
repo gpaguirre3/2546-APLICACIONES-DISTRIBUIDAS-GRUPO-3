@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
+    //[Serializable]
     public class ProductDTO
     {
         public int ProductID { get; set; }

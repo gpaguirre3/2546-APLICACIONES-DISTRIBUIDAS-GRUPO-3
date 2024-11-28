@@ -112,7 +112,7 @@ namespace BLL
 
 
         // Método para actualizar una categoría
-        public bool Update(Categories categoryToUpdate)
+        public int Update(Categories categoryToUpdate)
         {
             bool res = false;
             using (var r = RepositoryFactory.CreateRepository())
@@ -131,8 +131,42 @@ namespace BLL
                     throw new Exception("Ya existe otra categoría con el mismo nombre.");
                 }
             }
-            return res;
+            return 1;
         }
+        //UPDATE DTO
+        public bool UpdateDTO(CategoryDTO categoryToUpdate)
+        {
+            using (var r = RepositoryFactory.CreateRepository())
+            {
+                // Mapear el objeto CategoryDTO a la entidad Categories
+                var categoryEntity = new Categories
+                {
+                    CategoryID = categoryToUpdate.CategoryID,
+                    CategoryName = categoryToUpdate.CategoryName,
+                    Description = categoryToUpdate.Description
+                };
+
+                // Validar que no haya otra categoría con el mismo nombre
+                Categories existingCategory = r.Retrieve<Categories>(
+                    c => c.CategoryName == categoryEntity.CategoryName &&
+                         c.CategoryID != categoryEntity.CategoryID);
+
+                if (existingCategory == null)
+                {
+                    // Actualizar la categoría en la base de datos
+                    bool result = r.Update(categoryEntity);
+
+                    // Devolver un indicador de éxito
+                    return result;
+                }
+                else
+                {
+                    // Lógica en caso de que el nombre ya esté en uso
+                    throw new Exception("Ya existe otra categoría con el mismo nombre.");
+                }
+            }
+        }
+
 
         // Método para eliminar una categoría
         public bool Delete(int id)
@@ -173,5 +207,47 @@ namespace BLL
             }
             return res;
         }
+        public CategoryDTO CreateDTO(CategoryDTO categoryDTO)
+        {
+            CategoryDTO res = null;
+
+            using (var r = RepositoryFactory.CreateRepository())
+            {
+                // Mapear el objeto CategoryDTO a la entidad Categories
+                var categoryEntity = new Categories
+                {
+                    CategoryName = categoryDTO.CategoryName,
+                    Description = categoryDTO.Description
+                };
+
+                // Verificar que no exista una categoría con el mismo nombre
+                Categories existingCategory = r.Retrieve<Categories>(c => c.CategoryName == categoryEntity.CategoryName);
+                if (existingCategory == null)
+                {
+                    // Crear la categoría en la base de datos
+                    Categories createdCategory = r.Create(categoryEntity);
+
+                    // Mapear el resultado a CategoryDTO
+                    res = new CategoryDTO
+                    {
+                        CategoryID = createdCategory.CategoryID, // Asignar el ID generado
+                        CategoryName = createdCategory.CategoryName,
+                        Description = createdCategory.Description,
+                        Products = new List<ProductDTO>() // Lista vacía ya que la categoría no tiene productos al crearse
+                    };
+                }
+                else
+                {
+                    // Lógica en caso de que la categoría ya exista
+                    throw new Exception("La categoría ya existe.");
+                }
+            }
+
+            return res;
+        }
+
+
+
+
     }
 }

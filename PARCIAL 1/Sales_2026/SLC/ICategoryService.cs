@@ -11,6 +11,7 @@ namespace SLC
     {
         // Crear una nueva categoría
         Categories Create(Categories category);
+        //CategoryDTO CreateDTO(CategoryDTO category);
 
         // Buscar una categoría por su ID
         Categories RetrieveById(int id);
@@ -18,7 +19,7 @@ namespace SLC
        
 
         // Actualizar una categoría existente
-        bool Update(Categories categoryToUpdate);
+        int Update(Categories categoryToUpdate);
 
         // Eliminar una categoría por su ID
         bool Delete(int id);

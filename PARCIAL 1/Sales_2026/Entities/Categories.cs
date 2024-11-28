@@ -11,20 +11,25 @@ namespace Entities
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.Xml.Serialization;
+
+    [Serializable]
+
     public partial class Categories
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Categories()
         {
-            this.Products = new HashSet<Products>();
+            // Inicializa como una lista concreta
+            this.Products = new List<Products>();
         }
-    
+
         public int CategoryID { get; set; }
         public string CategoryName { get; set; }
         public string Description { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Products> Products { get; set; }
+
+        // Cambiar ICollection<Products> a List<Products>
+        [XmlIgnore] // Omitir serialización para evitar errores circulares
+        public virtual List<Products> Products { get; set; }
     }
 }

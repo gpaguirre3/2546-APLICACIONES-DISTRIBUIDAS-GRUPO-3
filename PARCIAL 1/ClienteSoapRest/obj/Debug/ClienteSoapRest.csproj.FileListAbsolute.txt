@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\ClienteSoapRest\obj\Debug\ClienteSoapRest.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ClienteSoapRest\obj\Debug\ClienteSoapRest.Form1.resources
+C:\Users\User\source\repos\ClienteSoapRest\obj\Debug\ClienteSoapRest.Properties.Resources.resources
+C:\Users\User\source\repos\ClienteSoapRest\obj\Debug\ClienteSoapRest.csproj.GenerateResource.cache
+C:\Users\User\source\repos\ClienteSoapRest\obj\Debug\ClienteSoapRest.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ClienteSoapRest\bin\Debug\ClienteSoapRest.exe.config
+C:\Users\User\source\repos\ClienteSoapRest\bin\Debug\ClienteSoapRest.exe
+C:\Users\User\source\repos\ClienteSoapRest\bin\Debug\ClienteSoapRest.pdb
+C:\Users\User\source\repos\ClienteSoapRest\obj\Debug\ClienteSoapRest.exe
+C:\Users\User\source\repos\ClienteSoapRest\obj\Debug\ClienteSoapRest.pdb
