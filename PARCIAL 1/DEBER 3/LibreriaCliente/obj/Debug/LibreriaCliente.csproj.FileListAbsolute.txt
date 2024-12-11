@@ -18,3 +18,13 @@ C:\Users\User\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\
 C:\Users\User\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\obj\Debug\LibreriaCliente.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\obj\Debug\LibreriaCliente.exe
 C:\Users\User\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\obj\Debug\LibreriaCliente.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\bin\Debug\LibreriaCliente.exe.config
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\bin\Debug\LibreriaCliente.exe
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\bin\Debug\LibreriaCliente.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\obj\Debug\LibreriaCliente.csproj.AssemblyReference.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\obj\Debug\LibreriaCliente.Form1.resources
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\obj\Debug\LibreriaCliente.Properties.Resources.resources
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\obj\Debug\LibreriaCliente.csproj.GenerateResource.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\obj\Debug\LibreriaCliente.csproj.CoreCompileInputs.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\obj\Debug\LibreriaCliente.exe
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 3\LibreriaCliente\obj\Debug\LibreriaCliente.pdb

@@ -7,10 +7,15 @@ namespace LibreriaCliente
 {
     public partial class Form1 : Form
     {
+        
         // Crear una instancia del cliente del servicio SOAP
-        private readonly Libreria.Libreria client = new Libreria.Libreria();
+        private readonly librerianueva.Libreria client = new librerianueva.Libreria();
+
         public Form1()
         {
+            // Deshabilitar la validación del certificado SSL (solo para pruebas)
+            System.Net.ServicePointManager.ServerCertificateValidationCallback +=
+                    (sender, cert, chain, sslPolicyErrors) => true;
             InitializeComponent();
         }
 

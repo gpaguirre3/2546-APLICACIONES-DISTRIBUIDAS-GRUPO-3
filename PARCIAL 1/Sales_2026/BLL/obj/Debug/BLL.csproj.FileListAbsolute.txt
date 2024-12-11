@@ -16,3 +16,21 @@ C:\Users\User\source\repos\Sales_2026\BLL\obj\Debug\BLL.pdb
 C:\Users\User\source\repos\Sales_2026\BLL\bin\Debug\BLL.dll.config
 C:\Users\User\source\repos\Sales_2026\BLL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\User\source\repos\Sales_2026\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\BLL.dll.config
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\BLL.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\BLL.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\DAL.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\Entities.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\EntityFramework.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\DAL.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\DAL.dll.config
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\Entities.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\Entities.dll.config
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\EntityFramework.xml
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\obj\Debug\BLL.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\BLL\obj\Debug\BLL.pdb

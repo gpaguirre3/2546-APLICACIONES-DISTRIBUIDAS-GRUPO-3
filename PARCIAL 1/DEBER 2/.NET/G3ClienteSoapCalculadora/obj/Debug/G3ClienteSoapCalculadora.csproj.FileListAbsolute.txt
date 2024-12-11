@@ -8,3 +8,13 @@ C:\Users\User\source\repos\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalcu
 C:\Users\User\source\repos\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.exe
 C:\Users\User\source\repos\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 2\.NET\G3ClienteSoapCalculadora\bin\Debug\G3ClienteSoapCalculadora.exe.config
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 2\.NET\G3ClienteSoapCalculadora\bin\Debug\G3ClienteSoapCalculadora.exe
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 2\.NET\G3ClienteSoapCalculadora\bin\Debug\G3ClienteSoapCalculadora.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 2\.NET\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.csproj.AssemblyReference.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 2\.NET\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.Form1.resources
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 2\.NET\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.Properties.Resources.resources
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 2\.NET\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.csproj.GenerateResource.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 2\.NET\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 2\.NET\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.exe
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\DEBER 2\.NET\G3ClienteSoapCalculadora\obj\Debug\G3ClienteSoapCalculadora.pdb

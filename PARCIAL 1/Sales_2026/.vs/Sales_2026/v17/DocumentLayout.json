@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D345AD-8E6F-44EA-B5EF-FB95B1564B08}|ServicioSOAP\\ServicioSOAP.csproj|c:\\users\\samuel\\documents\\github\\2546-aplicaciones-distribuidas-grupo-3\\parcial 1\\sales_2026\\serviciosoap\\producto.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D345AD-8E6F-44EA-B5EF-FB95B1564B08}|ServicioSOAP\\ServicioSOAP.csproj|solutionrelative:serviciosoap\\producto.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7978CE-42A9-4446-A8F6-172C9DF13FAE}|Test\\Test.csproj|C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\test\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0B7978CE-42A9-4446-A8F6-172C9DF13FAE}|Test\\Test.csproj|solutionrelative:test\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D345AD-8E6F-44EA-B5EF-FB95B1564B08}|ServicioSOAP\\ServicioSOAP.csproj|C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\serviciosoap\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E0D345AD-8E6F-44EA-B5EF-FB95B1564B08}|ServicioSOAP\\ServicioSOAP.csproj|solutionrelative:serviciosoap\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BFD839-1E52-48CA-9BED-506AA307E6F6}|Service\\Service.csproj|C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\service\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C5BFD839-1E52-48CA-9BED-506AA307E6F6}|Service\\Service.csproj|solutionrelative:service\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1B52C8E-A024-4B0E-A192-5E112FFDD4F9}|Entities\\Entities.csproj|C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\entities\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E1B52C8E-A024-4B0E-A192-5E112FFDD4F9}|Entities\\Entities.csproj|solutionrelative:entities\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFF39E0-1484-46EB-8307-B3073FC13DB4}|BLL\\BLL.csproj|C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\bll\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0FFF39E0-1484-46EB-8307-B3073FC13DB4}|BLL\\BLL.csproj|solutionrelative:bll\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF133FA-424F-40C2-916F-C3CE384DD931}|DAL\\DAL.csproj|C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9CF133FA-424F-40C2-916F-C3CE384DD931}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BFD839-1E52-48CA-9BED-506AA307E6F6}|Service\\Service.csproj|C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\service\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BFD839-1E52-48CA-9BED-506AA307E6F6}|Service\\Service.csproj|solutionrelative:service\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFF39E0-1484-46EB-8307-B3073FC13DB4}|BLL\\BLL.csproj|C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\bll\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFF39E0-1484-46EB-8307-B3073FC13DB4}|BLL\\BLL.csproj|solutionrelative:bll\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8C3A4F-B75B-4404-918D-46DEE91DCA86}|SLC\\SLC.csproj|C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\slc\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF8C3A4F-B75B-4404-918D-46DEE91DCA86}|SLC\\SLC.csproj|solutionrelative:slc\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFF39E0-1484-46EB-8307-B3073FC13DB4}|BLL\\BLL.csproj|C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\bll\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFF39E0-1484-46EB-8307-B3073FC13DB4}|BLL\\BLL.csproj|solutionrelative:bll\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\Test\\App.config",
+              "RelativeDocumentMoniker": "Test\\App.config",
+              "ToolTip": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\Test\\App.config",
+              "RelativeToolTip": "Test\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-29T16:16:33.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\Service\\Web.config",
+              "RelativeDocumentMoniker": "Service\\Web.config",
+              "ToolTip": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\Service\\Web.config",
+              "RelativeToolTip": "Service\\Web.config",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-29T16:15:52.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\Entities\\App.config",
+              "RelativeDocumentMoniker": "Entities\\App.config",
+              "ToolTip": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\Entities\\App.config",
+              "RelativeToolTip": "Entities\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-29T16:15:42.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\BLL\\App.config",
+              "RelativeDocumentMoniker": "BLL\\App.config",
+              "ToolTip": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\BLL\\App.config",
+              "RelativeToolTip": "BLL\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-29T16:15:30.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.Config",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\DAL\\App.Config",
+              "RelativeDocumentMoniker": "DAL\\App.Config",
+              "ToolTip": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\DAL\\App.Config",
+              "RelativeToolTip": "DAL\\App.Config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-29T16:14:32.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Producto.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\ServicioSOAP\\Producto.asmx.cs",
+              "RelativeDocumentMoniker": "ServicioSOAP\\Producto.asmx.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\ServicioSOAP\\Producto.asmx.cs",
+              "RelativeToolTip": "ServicioSOAP\\Producto.asmx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:19:31.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\ServicioSOAP\\Web.config",
+              "RelativeDocumentMoniker": "ServicioSOAP\\Web.config",
+              "ToolTip": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\ServicioSOAP\\Web.config",
+              "RelativeToolTip": "ServicioSOAP\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-29T16:16:10.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\SLC\\IProductService.cs",
+              "RelativeDocumentMoniker": "SLC\\IProductService.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\SLC\\IProductService.cs",
+              "RelativeToolTip": "SLC\\IProductService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAB4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:19:32.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\BLL\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\BLL\\ProductDTO.cs",
+              "RelativeToolTip": "BLL\\ProductDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:19:32.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductLogic.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\BLL\\ProductLogic.cs",
+              "RelativeDocumentMoniker": "BLL\\ProductLogic.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\BLL\\ProductLogic.cs",
+              "RelativeToolTip": "BLL\\ProductLogic.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAIcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:19:32.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\Service\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Service\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\Documents\\GitHub\\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\\PARCIAL 1\\Sales_2026\\Service\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Service\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:19:32.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

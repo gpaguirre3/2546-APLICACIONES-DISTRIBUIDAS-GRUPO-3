@@ -16,3 +16,21 @@ C:\Users\User\source\repos\Sales_2026\Test\obj\Debug\Test.csproj.CoreCompileInpu
 C:\Users\User\source\repos\Sales_2026\Test\obj\Debug\Test.csproj.CopyComplete
 C:\Users\User\source\repos\Sales_2026\Test\obj\Debug\Test.exe
 C:\Users\User\source\repos\Sales_2026\Test\obj\Debug\Test.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\Test.exe.config
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\Test.exe
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\Test.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\DAL.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\Entities.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\EntityFramework.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\DAL.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\DAL.dll.config
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\Entities.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\Entities.dll.config
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\EntityFramework.xml
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\obj\Debug\Test.csproj.Up2Date
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\obj\Debug\Test.exe
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\Test\obj\Debug\Test.pdb

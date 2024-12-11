@@ -8,3 +8,13 @@ C:\Users\User\source\repos\Sales_2026\SLC\obj\Debug\SLC.csproj.CoreCompileInputs
 C:\Users\User\source\repos\Sales_2026\SLC\obj\Debug\SLC.csproj.CopyComplete
 C:\Users\User\source\repos\Sales_2026\SLC\obj\Debug\SLC.dll
 C:\Users\User\source\repos\Sales_2026\SLC\obj\Debug\SLC.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\SLC\bin\Debug\SLC.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\SLC\bin\Debug\SLC.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\SLC\bin\Debug\Entities.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\SLC\bin\Debug\Entities.pdb
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\SLC\bin\Debug\Entities.dll.config
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\SLC\obj\Debug\SLC.csproj.AssemblyReference.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\SLC\obj\Debug\SLC.csproj.CoreCompileInputs.cache
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\SLC\obj\Debug\SLC.csproj.Up2Date
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\SLC\obj\Debug\SLC.dll
+C:\Users\SAMUEL\Documents\GitHub\2546-APLICACIONES-DISTRIBUIDAS-GRUPO-3\PARCIAL 1\Sales_2026\SLC\obj\Debug\SLC.pdb
