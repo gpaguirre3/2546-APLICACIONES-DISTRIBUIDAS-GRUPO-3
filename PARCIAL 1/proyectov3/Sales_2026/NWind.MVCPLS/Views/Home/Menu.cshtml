@@ -1,0 +1,118 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menu</title>
+    <style>
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .menu-wrapper {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+            padding: 40px;
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .logout-button {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+            .logout-button:hover {
+                background-color: #ff3333;
+                transform: translateY(-2px);
+            }
+
+        .menu-title {
+            color: #333;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .menu-subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .menu-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .menu-button {
+            text-decoration: none;
+            padding: 15px;
+            background-color: #667eea;
+            color: white;
+            border-radius: 10px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+            .menu-button:hover {
+                background-color: #764ba2;
+                transform: translateY(-3px);
+                box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+            }
+    </style>
+</head>
+<body>
+    <div class="menu-wrapper">
+        <button class="logout-button" onclick="logoutAndRedirect()">
+            Salir
+        </button>
+        <h1 class="menu-title">Bienvenido al Sistema</h1>
+        <p class="menu-subtitle">Seleccione una opción para gestionar:</p>
+        <div class="menu-buttons">
+            <a href="@Url.Action("Categorias", "Home")" class="menu-button">
+                Gestionar Categorías
+            </a>
+            <a href="@Url.Action("Productos", "Home")" class="menu-button">
+                Gestionar Productos
+            </a>
+        </div>
+    </div>
+
+    <script>
+    function logoutAndRedirect() {
+        window.location.href = '@Url.Action("Index", "Home")';
+    }
+    </script>
+</body>
+</html>
