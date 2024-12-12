@@ -1,0 +1,120 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Iniciar Sesión</title>
+    <script>
+        // Verificar si la cookie AuthToken todavía existe
+        if (document.cookie.includes("AuthToken")) {
+            // Forzar recarga para asegurarse de que la cookie se elimine en el navegador
+            location.reload();
+        }
+    </script>
+    <!-- Enlace a Bootstrap 5 (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        /* Personalización adicional para la página */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .error-message {
+            color: red;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .register-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .register-link a {
+                text-decoration: none;
+                color: #007bff;
+            }
+
+                .register-link a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2 class="text-center mb-4">Iniciar Sesión</h2>
+
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <div class="mb-3">
+                <label for="username" class="form-label">Usuario</label>
+                <input type="text" class="form-control" id="username" name="username"
+                       required
+                       pattern="[^<>]*"
+                       oninput="this.value = this.value.replace(/[<>]/g, '')" />
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="password" name="password"
+                       required
+                       pattern="[^<>]*"
+                       oninput="this.value = this.value.replace(/[<>]/g, '')" />
+            </div>
+            <div class="d-grid gap-2">
+                <input type="submit" class="btn btn-success" value="Iniciar Sesión" />
+            </div>
+        }
+
+        <!-- Mostrar el mensaje con el token o error -->
+        @if (ViewBag.Message != null)
+        {
+            <div class="error-message">
+                @ViewBag.Message
+            </div>
+        }
+
+        <!-- Enlace de registro -->
+        <div class="register-link">
+            ¿No tienes una cuenta? <a href="@Url.Action("Registro", "Registro")">Regístrate aquí</a>
+        </div>
+    </div>
+
+
+    <!-- Enlace a Bootstrap JS (necesario para algunos componentes interactivos) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Validar campos para evitar símbolos < y >
+        function validarEntrada(input) {
+            const invalidChars = /[<>]/g;
+            if (invalidChars.test(input.value)) {
+                input.value = input.value.replace(invalidChars, '');
+                mostrarError('Los caracteres < y > no están permitidos.');
+            }
+        }
+    </script>
+
+
+</body >
+</html >

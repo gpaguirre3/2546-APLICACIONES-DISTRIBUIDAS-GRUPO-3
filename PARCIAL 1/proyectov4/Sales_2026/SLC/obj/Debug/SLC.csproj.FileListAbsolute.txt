@@ -1,0 +1,35 @@
+C:\Users\User\source\repos\Sales_2026\SLC\bin\Debug\SLC.dll
+C:\Users\User\source\repos\Sales_2026\SLC\bin\Debug\SLC.pdb
+C:\Users\User\source\repos\Sales_2026\SLC\bin\Debug\Entities.dll
+C:\Users\User\source\repos\Sales_2026\SLC\bin\Debug\Entities.pdb
+C:\Users\User\source\repos\Sales_2026\SLC\bin\Debug\Entities.dll.config
+C:\Users\User\source\repos\Sales_2026\SLC\obj\Debug\SLC.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Sales_2026\SLC\obj\Debug\SLC.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Sales_2026\SLC\obj\Debug\SLC.csproj.CopyComplete
+C:\Users\User\source\repos\Sales_2026\SLC\obj\Debug\SLC.dll
+C:\Users\User\source\repos\Sales_2026\SLC\obj\Debug\SLC.pdb
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\SLC\bin\Debug\SLC.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\SLC\bin\Debug\SLC.pdb
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\SLC\bin\Debug\Entities.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\SLC\bin\Debug\Entities.pdb
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\SLC\bin\Debug\Entities.dll.config
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\SLC\obj\Debug\SLC.csproj.AssemblyReference.cache
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\SLC\obj\Debug\SLC.csproj.CoreCompileInputs.cache
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\SLC\obj\Debug\SLC.csproj.Up2Date
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\SLC\obj\Debug\SLC.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\SLC\obj\Debug\SLC.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\bin\Debug\SLC.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\bin\Debug\SLC.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\bin\Debug\DAL.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\bin\Debug\Entities.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\bin\Debug\EntityFramework.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\bin\Debug\DAL.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\bin\Debug\DAL.dll.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\bin\Debug\Entities.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\bin\Debug\Entities.dll.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\bin\Debug\EntityFramework.xml
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\obj\Debug\SLC.csproj.AssemblyReference.cache
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\obj\Debug\SLC.csproj.CoreCompileInputs.cache
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\obj\Debug\SLC.csproj.CopyComplete
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\obj\Debug\SLC.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\obj\Debug\SLC.pdb

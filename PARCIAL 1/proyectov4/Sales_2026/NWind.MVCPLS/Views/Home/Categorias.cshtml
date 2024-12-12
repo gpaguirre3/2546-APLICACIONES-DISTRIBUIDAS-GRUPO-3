@@ -1,0 +1,267 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Categorías</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #d6f0ff 0%, #b3e5fc 100%);
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h2 class="mb-0">Crear Categoría</h2>
+                    </div>
+                    <div class="card-body">
+                        @using (Html.BeginForm("Categorias", "Home", FormMethod.Post, new { @class = "needs-validation", id = "createCategoryForm", novalidate = "novalidate" }))
+                        {
+                            @Html.AntiForgeryToken()
+
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required oninput="validarEntrada(this)" />
+                                <div class="invalid-feedback">
+                                    Por favor, ingrese un nombre de categoría.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="descripcion" class="form-label">Descripción:</label>
+                                <textarea class="form-control" id="descripcion" name="descripcion" required oninput="validarEntrada(this)"></textarea>
+                                <div class="invalid-feedback">
+                                    Por favor, ingrese una descripción.
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Crear Categoría</button>
+                        }
+                    </div>
+                </div>
+
+                @if (ViewBag.Message != null)
+                {
+                    <div class="alert @(ViewBag.Message.Contains("Error") ? "alert-danger" : "alert-success") mt-3">
+                        @ViewBag.Message
+                    </div>
+                }
+
+                <div class="card mb-4">
+                    <div class="card-header bg-secondary text-white">
+                        <h3 class="mb-0">Buscar Categorías</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" id="searchNombre" class="form-control" placeholder="Buscar por Nombre o ID" oninput="validarEntrada(this)">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" onclick="buscarCategorias()">Buscar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h3 class="mb-0">Resultados</h3>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nombre</th>
+                                    <th>Descripción</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="resultadosCuerpo">
+                                <!-- Resultados de búsqueda se insertarán aquí -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Actualizar -->
+    <div class="modal fade" id="actualizarModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Actualizar Categoría</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="updateId" />
+                    <div class="mb-3">
+                        <label for="updateNombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="updateNombre" oninput="validarEntrada(this)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="updateDescripcion" class="form-label">Descripción:</label>
+                        <textarea class="form-control" id="updateDescripcion" oninput="validarEntrada(this)"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" onclick="confirmarActualizacion()">Guardar Cambios</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Validar campos para evitar símbolos < y >
+        function validarEntrada(input) {
+            const invalidChars = /[<>]/g;
+            if (invalidChars.test(input.value)) {
+                input.value = input.value.replace(invalidChars, '');
+                alert('Los caracteres < y > no están permitidos.');
+            }
+        }
+
+        // Validación de formularios de Bootstrap
+        (function () {
+            'use strict'
+            var forms = document.querySelectorAll('.needs-validation');
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+        })();
+
+        // Función para buscar categorías
+        function buscarCategorias() {
+            const nombre = document.getElementById('searchNombre').value;
+            const resultadosCuerpo = document.getElementById('resultadosCuerpo');
+
+            // Limpiar resultados previos
+            resultadosCuerpo.innerHTML = '';
+
+            // Realizar solicitud AJAX para buscar categorías
+            fetch(`/Home/BuscarCategorias?nombre=${encodeURIComponent(nombre)}`)
+                .then(response => response.json())
+                .then(categorias => {
+                    if (categorias && categorias.length > 0) {
+                        categorias.forEach(categoria => {
+                            const tr = document.createElement('tr');
+                            tr.innerHTML = `
+                                    <td>${categoria.CategoryID}</td>
+                                    <td>${categoria.CategoryName}</td>
+                                    <td>${categoria.Description}</td>
+                                    <td>
+                                        <button class="btn btn-warning btn-sm me-2" onclick="abrirModalActualizar(${categoria.CategoryID}, '${categoria.CategoryName}', '${categoria.Description}')">Actualizar</button>
+                                        <button class="btn btn-danger btn-sm" onclick="eliminarCategoria(${categoria.CategoryID})">Eliminar</button>
+                                    </td>
+                                `;
+                            resultadosCuerpo.appendChild(tr);
+                        });
+                    } else {
+                        resultadosCuerpo.innerHTML = '<tr><td colspan="4" class="text-center">No se encontraron resultados</td></tr>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    resultadosCuerpo.innerHTML = '<tr><td colspan="4" class="text-center">Error al buscar categorías</td></tr>';
+                });
+        }
+
+        // Abrir modal de actualización y cargar los datos
+        function abrirModalActualizar(id, nombre, descripcion) {
+            document.getElementById('updateId').value = id;
+            document.getElementById('updateNombre').value = nombre;
+            document.getElementById('updateDescripcion').value = descripcion;
+
+            var actualizarModal = new bootstrap.Modal(document.getElementById('actualizarModal'));
+            actualizarModal.show();
+        }
+
+        // Confirmar actualización de categoría
+        function confirmarActualizacion() {
+            const id = document.getElementById('updateId').value;
+            const nombre = document.getElementById('updateNombre').value;
+            const descripcion = document.getElementById('updateDescripcion').value;
+
+            fetch('/Home/ActualizarCategoria', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    CategoryID: id,
+                    CategoryName: nombre,
+                    Description: descripcion
+                })
+            })
+                .then(response => response.json())
+                .then(result => {
+                    if (result.success) {
+                        alert('Categoría actualizada exitosamente');
+                        buscarCategorias();
+                    } else {
+                        alert('No está autorizado a actualizar una categoría o ya existe una categoría con ese nombre.');
+                    }
+
+                    var actualizarModal = bootstrap.Modal.getInstance(document.getElementById('actualizarModal'));
+                    actualizarModal.hide();
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('No está autorizado a actualizar una categoría.');
+                });
+        }
+
+        // Eliminar categoría
+        function eliminarCategoria(id) {
+            if (confirm(`¿Está seguro de eliminar la categoría con ID ${id}?`)) {
+                fetch('/Home/EliminarCategoria', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ id: id })
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        if (result.success) {
+                            alert('Categoría eliminada exitosamente');
+                            buscarCategorias();
+                        } else {
+                            alert('No está autorizado a eliminar una categoría.');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('Error al eliminar la categoría');
+                    });
+            }
+        }
+    </script>
+</body>
+</html>

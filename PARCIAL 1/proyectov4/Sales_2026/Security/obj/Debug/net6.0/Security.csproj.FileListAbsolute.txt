@@ -1,0 +1,194 @@
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\appsettings.json
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Security.exe
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Security.deps.json
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Security.runtimeconfig.json
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Security.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Security.pdb
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\Security.csproj.AssemblyReference.cache
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\Security.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\Security.AssemblyInfoInputs.cache
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\Security.AssemblyInfo.cs
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\Security.csproj.CoreCompileInputs.cache
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\Security.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\Security.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\staticwebassets\msbuild.Security.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\staticwebassets\msbuild.build.Security.props
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Security.props
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Security.props
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\scopedcss\bundle\Security.styles.css
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\Security.csproj.Up2Date
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\Security.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\refint\Security.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\Security.pdb
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\Security.genruntimeconfig.cache
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\obj\Debug\net6.0\ref\Security.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\BLL.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\DAL.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Entities.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\BLL.pdb
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\BLL.dll.config
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\DAL.pdb
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\DAL.dll.config
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Entities.pdb
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Entities.dll.config
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\System.Data.SQLite.EF6.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\App.config
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\App.Debug.config
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\App.Release.config
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Security.dll.config
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\libman.json
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\genes\Documents\PROYECTO DISTRIBUIDAS\Sales_2026\Security\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.csproj.AssemblyReference.cache
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.GeneratedMSBuildEditorConfig.editorconfig
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.AssemblyInfoInputs.cache
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.AssemblyInfo.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.csproj.CoreCompileInputs.cache
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.MvcApplicationPartsAssemblyInfo.cache
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\App.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\App.Debug.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\App.Release.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\appsettings.Development.json
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\appsettings.json
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\libman.json
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Security.exe
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Security.dll.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Security.deps.json
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Security.runtimeconfig.json
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Security.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Security.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\EntityFramework.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\System.CodeDom.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\System.Data.SQLite.EF6.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\BLL.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\DAL.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Entities.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\SLC.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\BLL.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\BLL.dll.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\DAL.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\DAL.dll.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Entities.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\Entities.dll.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\bin\Debug\net6.0\SLC.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.MvcApplicationPartsAssemblyInfo.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\staticwebassets\msbuild.Security.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\staticwebassets\msbuild.build.Security.props
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Security.props
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Security.props
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\staticwebassets.pack.json
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\staticwebassets.build.json
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\staticwebassets.development.json
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\scopedcss\bundle\Security.styles.css
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.csproj.CopyComplete
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\refint\Security.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.genruntimeconfig.cache
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\ref\Security.dll
