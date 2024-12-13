@@ -1,0 +1,15 @@
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\bin\Debug\DAL.dll.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\bin\Debug\DAL.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\bin\Debug\DAL.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\bin\Debug\Entities.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\bin\Debug\EntityFramework.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\bin\Debug\Entities.pdb
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\bin\Debug\Entities.dll.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\bin\Debug\EntityFramework.xml
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\obj\Debug\DAL.dll
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,4 @@
+﻿D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\ICategoryService.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\ILoginAttemptsService.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\IProductService.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\SLC\Properties\AssemblyInfo.cs

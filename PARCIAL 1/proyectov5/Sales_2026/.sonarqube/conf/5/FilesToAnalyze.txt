@@ -1,0 +1,3 @@
+﻿D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\NWindProxyService1\Proxy.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\NWindProxyService1\Properties\AssemblyInfo.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\NWindProxyService1\packages.config

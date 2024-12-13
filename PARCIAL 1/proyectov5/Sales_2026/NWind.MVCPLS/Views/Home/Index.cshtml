@@ -1,0 +1,226 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Iniciar Sesión</title>
+    <script>
+        // Verificar si la cookie AuthToken todavía existe
+        if (document.cookie.includes("AuthToken")) {
+            // Forzar recarga para asegurarse de que la cookie se elimine en el navegador
+            location.reload();
+        }
+    </script>
+    <!-- Enlace a Bootstrap 5 (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Enlace a Bootstrap Icons (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        /* Personalización adicional para la página */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url('https://png.pngtree.com/background/20230614/original/pngtree-ecommerce-website-with-shopping-cart-with-the-shopping-cart-on-a-picture-image_3515047.jpg') no-repeat center center fixed; /* Añadir imagen de fondo */
+            background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 800px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .login-container {
+            width: 50%;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+            padding: 20px;
+            border-radius: 15px 0 0 15px;
+            color: #1e88e5;
+        }
+
+        .icon-container {
+            width: 50%;
+            padding: 78px;
+            border-radius: 0 15px 15px 0;
+            text-align: center;
+            font-size: 10rem; /* Aumentar el tamaño del ícono */
+            background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con transparencia */
+            color: #1e88e5;
+        }
+
+        .login-container h2 {
+            color: #1e88e5; /* Color del título en azul */
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+
+        .form-label {
+            color: #1e88e5; /* Color de las etiquetas en azul */
+            font-weight: bold;
+        }
+
+        .form-control {
+            border: 2px solid #0d47a1; /* Color del borde de los inputs en azul oscuro */
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background-color: #1e88e5; /* Color del botón en azul */
+            border-color: #1e88e5; /* Color del borde del botón en azul */
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+            .btn-primary:hover {
+                background-color: #0d47a1; /* Color del botón al pasar el ratón en azul oscuro */
+                border-color: #0d47a1; /* Color del borde del botón al pasar el ratón en azul oscuro */
+            }
+
+        .error-message {
+            color: red;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .register-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .register-link a {
+                text-decoration: none;
+                color: #0d47a1;
+                font-weight: bold;
+            }
+
+                .register-link a:hover {
+                    text-decoration: underline;
+                }
+
+        .background-shapes {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+            .background-shapes::before,
+            .background-shapes::after {
+                content: '';
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 50%;
+                animation: float 6s ease-in-out infinite;
+            }
+
+            .background-shapes::before {
+                top: 10%;
+                left: 10%;
+            }
+
+            .background-shapes::after {
+                bottom: 10%;
+                right: 10%;
+                animation-delay: 3s;
+            }
+
+        .float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .float-delay {
+            animation-delay: 3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-shapes">
+        <div class="float" style="top: 10%; left: 10%; width: 200px; height: 200px; background: rgba(255, 255, 255, 0.1); border-radius: 50%;"></div>
+        <div class="float float-delay" style="bottom: 10%; right: 10%; width: 200px; height: 200px; background: rgba(255, 255, 255, 0.1); border-radius: 50%;"></div>
+    </div>
+    <div class="container">
+        <div class="login-container">
+            <h2>Iniciar Sesión</h2>
+
+            @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <div class="mb-3">
+                    <label for="username" class="form-label">Usuario</label>
+                    <input type="text" class="form-control" id="username" name="username"
+                           required
+                           pattern="[^<>]*"
+                           oninput="this.value = this.value.replace(/[<>]/g, '')" />
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="password" name="password"
+                           required
+                           pattern="[^<>]*"
+                           oninput="this.value = this.value.replace(/[<>]/g, '')" />
+                </div>
+                <div class="d-grid gap-2">
+                    <input type="submit" class="btn btn-primary" value="Iniciar Sesión" />
+                </div>
+            }
+
+            <!-- Mostrar el mensaje con el token o error -->
+            @if (ViewBag.Message != null)
+            {
+                <div class="error-message">
+                    @ViewBag.Message
+                </div>
+            }
+
+            <!-- Enlace de registro -->
+            <div class="register-link">
+                ¿No tienes una cuenta? <a href="@Url.Action("Registro", "Registro")">Regístrate aquí</a>
+            </div>
+        </div>
+        <div class="icon-container">
+            <i class="bi bi-shield-lock"></i> <!-- Nuevo ícono -->
+        </div>
+
+    </div>
+
+    <!-- Enlace a Bootstrap JS (necesario para algunos componentes interactivos) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Validar campos para evitar símbolos < y >
+        function validarEntrada(input) {
+            const invalidChars = /[<>]/g;
+            if (invalidChars.test(input.value)) {
+                input.value = input.value.replace(invalidChars, '');
+                mostrarError('Los caracteres < y > no están permitidos.');
+            }
+        }
+    </script>
+</body>
+</html>

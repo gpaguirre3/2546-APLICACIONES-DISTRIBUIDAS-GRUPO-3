@@ -1,0 +1,427 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulario de Registro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url('https://png.pngtree.com/background/20230614/original/pngtree-ecommerce-website-with-shopping-cart-with-the-shopping-cart-on-a-picture-image_3515047.jpg') no-repeat center center fixed; /* Imagen de fondo */
+            background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 800px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .login-container {
+            width: 50%;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+            padding: 20px;
+            border-radius: 15px 0 0 15px;
+            color: #1e88e5;
+        }
+
+        .icon-container {
+            width: 50%;
+            padding: 78px;
+            border-radius: 0 15px 15px 0;
+            text-align: center;
+            font-size: 10rem; /* Aumentar el tamaño del ícono */
+            background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con transparencia */
+            color: #1e88e5;
+        }
+
+        .register-container h2 {
+            color: #1e88e5; /* Color del título en azul */
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+
+        .form-label {
+            color: #1e88e5; /* Color de las etiquetas en azul */
+            font-weight: bold;
+        }
+
+        .form-control {
+            border: 2px solid #0d47a1; /* Color del borde de los inputs en azul oscuro */
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background-color: #1e88e5; /* Color del botón en azul */
+            border-color: #1e88e5; /* Color del borde del botón en azul */
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+            .btn-primary:hover {
+                background-color: #0d47a1; /* Color del botón al pasar el ratón en azul oscuro */
+                border-color: #0d47a1; /* Color del borde del botón al pasar el ratón en azul oscuro */
+            }
+
+        .error-message {
+            color: red;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .register-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .register-container {
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .alert {
+            margin-top: 15px;
+        }
+
+        .password-strength {
+            height: 5px;
+            margin-top: 5px;
+            background-color: #e0e0e0;
+        }
+
+        .password-strength-bar {
+            height: 100%;
+            width: 0;
+            transition: width 0.3s ease;
+        }
+
+        .weak {
+            background-color: red;
+        }
+
+        .medium {
+            background-color: orange;
+        }
+
+        .strong {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <h2 class="text-center mb-4">Formulario de Registro</h2>
+        @Html.AntiForgeryToken()
+        <form id="registroForm">
+            <div class="mb-3">
+                <label for="usuario" class="form-label">Usuario</label>
+                <input type="text" class="form-control" id="usuario" name="usuario" required />
+            </div>
+            <div class="mb-3">
+                <label for="firstName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="firstName" name="firstname" required />
+            </div>
+            <div class="mb-3">
+                <label for="lastName" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="lastName" name="lastname" required />
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" required />
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="password" name="password" required />
+                <div class="password-strength">
+                    <div id="passwordStrengthBar" class="password-strength-bar"></div>
+                </div>
+                <small id="passwordHint" class="form-text text-muted">
+                    La contraseña debe tener al menos 8 caracteres, incluyendo letras y números.
+                </small>
+            </div>
+            <div class="mb-3">
+                <label for="role" class="form-label">Rol</label>
+                <select class="form-select" id="role" name="role" required>
+                    <option value="Lector">Lector</option>
+                    <option value="Editor">Editor</option>
+                </select>
+            </div>
+            <div id="errorAlert" class="alert alert-danger d-none" role="alert"></div>
+
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary" id="submitButton" disabled>Registrar</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Modal de Verificación -->
+    <div class="modal fade" id="verificacionModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Verificación de Correo</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Hemos enviado un código de verificación a tu correo. Por favor, ingrésalo:</p>
+                    <input type="text" class="form-control" id="codigoVerificacion" required />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="verificarCodigo">Verificar</button>
+                </div>
+                <div id="errorAlert" class="alert alert-danger d-none" role="alert"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Validar campos para evitar símbolos < y >
+        function validarEntrada(input) {
+            const invalidChars = /[<>]/g;
+            if (invalidChars.test(input.value)) {
+                input.value = input.value.replace(invalidChars, '');
+                mostrarError('Los caracteres < y > no están permitidos.');
+            }
+        }
+
+        // Función para validar la fortaleza de la contraseña
+        function validarContrasena(password) {
+            const minLength = 8;
+            const hasLetters = /[a-zA-Z]/.test(password);
+            const hasNumbers = /[0-9]/.test(password);
+
+            const passwordStrengthBar = document.getElementById('passwordStrengthBar');
+            const submitButton = document.getElementById('submitButton');
+
+            if (password.length < minLength || !hasLetters || !hasNumbers) {
+                passwordStrengthBar.style.width = '33%';
+                passwordStrengthBar.classList.remove('medium', 'strong');
+                passwordStrengthBar.classList.add('weak');
+                submitButton.disabled = true;
+                return false;
+            }
+
+            if (password.length >= 12 && hasLetters && hasNumbers) {
+                passwordStrengthBar.style.width = '100%';
+                passwordStrengthBar.classList.remove('weak', 'medium');
+                passwordStrengthBar.classList.add('strong');
+                submitButton.disabled = false;
+            } else {
+                passwordStrengthBar.style.width = '66%';
+                passwordStrengthBar.classList.remove('weak', 'strong');
+                passwordStrengthBar.classList.add('medium');
+                submitButton.disabled = false;
+            }
+
+            return true;
+        }
+
+        document.querySelectorAll('input, select').forEach(field => {
+            field.addEventListener('input', (e) => {
+                validarEntrada(e.target);
+
+                // Validación específica para contraseña
+                if (e.target.id === 'password') {
+                    validarContrasena(e.target.value);
+                }
+            });
+        });
+
+        document.getElementById('registroForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const password = document.getElementById('password').value;
+            const usuario = document.getElementById('usuario').value;
+            const email = document.getElementById('email').value;
+            if (!validarContrasena(password)) {
+                mostrarError('La contraseña no cumple con los requisitos de seguridad.');
+                return;
+            }
+            //USUARIO REGISTRADO o EMAIL REGISTRADO
+            verificarUsuarioOEmailExistente(usuario,email).then(result => {
+                if (result.exists) {
+                    mostrarError('Ya existe un usuario registrado con ese nombre o correo');
+                    return;
+                } else {
+                    // Obtener datos del formulario
+                    const formData = new FormData(e.target);
+                    const data = Object.fromEntries(formData.entries());
+                    quitarError();
+
+                    // Enviar solicitud para generar código
+                    enviarCodigoVerificacion(data);
+
+                }
+            });
+
+
+
+
+
+        });
+
+        document.getElementById('verificarCodigo').addEventListener('click', function() {
+            const codigo = document.getElementById('codigoVerificacion').value;
+
+            // Verificar el código de verificación
+            fetch('@Url.Action("VerificarCodigo", "Registro")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: `codigo=${encodeURIComponent(codigo)}`
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    // Enviar los datos del formulario al servidor
+                    const form = document.getElementById('registroForm');
+                    const formData = new FormData(form);
+                    const data = Object.fromEntries(formData.entries());
+
+                    fetch('@Url.Action("Registro", "Registro")', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data)
+                    })
+                    .then(response => response.json())
+                    .then(result => {
+                        if (result.success) {
+                            window.location.href = '@Url.Action("Index", "Home")';
+                        } else {
+                            mostrarError(result.message || 'Ocurrió un error al registrar el usuario');
+                        }
+                    })
+                    .catch(error => {
+                        mostrarError(`Error del sistema: ${error.message}`);
+                    });
+                } else {
+                    mostrarError(result.message || 'Código de verificación incorrecto');
+                }
+            })
+            .catch(error => {
+                mostrarError(`Error del sistema: ${error.message}`);
+            });
+        });
+        // NUEVO PASO: Verificar si el usuario ya existe antes de enviar el formulario
+        function verificarUsuarioExistente(usuario) {
+            return fetch('@Url.Action("VerificarUsuario", "Registro")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: `usuario=${encodeURIComponent(usuario)}`
+            })
+            .then(response => response.json())
+            .then(result => {
+                // Verificamos si la verificación fue exitosa y si el usuario existe
+                if (result.success === false && result.message === "El nombre de usuario ya está registrado.") {
+                    return { exists: true, message: result.message };
+                } else if (result.success === true && result.message === "El nombre de usuario está disponible.") {
+                    return { exists: false, message: result.message };
+                } else {
+                    // Si la respuesta no es esperada, devolvemos un mensaje de error
+                    return { exists: false, message: "Error desconocido." };
+                }
+            })
+            .catch(error => {
+                console.error('Error al verificar el usuario:', error);
+                return { exists: false, message: "Ocurrió un error en la verificación." };
+            });
+        }
+         //usuario o email registrado
+         // Verificar si el usuario o el correo electrónico existe
+         function verificarUsuarioOEmailExistente(usuario, email) {
+            return fetch('@Url.Action("VerificarUsuarioOEmail", "Registro")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: `usuario=${encodeURIComponent(usuario)}&email=${encodeURIComponent(email)}`
+            })
+            .then(response => response.json())
+            .then(result => {
+                // Verificamos si la verificación fue exitosa y si el usuario o el correo electrónico existe
+                if (result.success === false && result.message === "El nombre de usuario o correo electrónico ya está registrado.") {
+                    return { exists: true, message: result.message };
+                } else if (result.success === true && result.message === "El nombre de usuario o correo electrónico está disponible.") {
+                    return { exists: false, message: result.message };
+                } else {
+                    // Si la respuesta no es esperada, devolvemos un mensaje de error
+                    return { exists: false, message: "Error desconocido." };
+                }
+            })
+            .catch(error => {
+                console.error('Error al verificar el usuario o correo electrónico:', error);
+                return { exists: false, message: "Ocurrió un error en la verificación." };
+            });
+        }
+
+        //generar codigo de verificacion
+        function enviarCodigoVerificacion(data) {
+            fetch('@Url.Action("GenerarCodigoVerificacion", "Registro")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: `email=${encodeURIComponent(data.email)}`
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    // Mostrar modal de verificación
+                    var verificacionModal = new bootstrap.Modal(document.getElementById('verificacionModal'));
+                    verificacionModal.show();
+                } else {
+                    mostrarError(result.error || 'Hubo un problema enviando el código de verificación.');
+                }
+            })
+            .catch(err => {
+                mostrarError(`Error de red: ${err.message}`);
+            });
+        }
+
+
+
+        function mostrarError(mensaje) {
+            const errorAlert = document.getElementById('errorAlert');
+            errorAlert.textContent = mensaje;
+            errorAlert.classList.remove('d-none');
+        }
+        function quitarError() {
+            const errorAlert = document.getElementById('errorAlert');
+            errorAlert.textContent = ''; // Asegúrate de limpiar el contenido
+            errorAlert.classList.add('d-none');
+        }
+
+    </script>
+</body>
+</html>

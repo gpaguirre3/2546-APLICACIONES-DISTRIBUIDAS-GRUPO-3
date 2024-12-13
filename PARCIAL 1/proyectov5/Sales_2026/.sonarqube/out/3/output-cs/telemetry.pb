@@ -1,0 +1,1 @@
+URGD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Test\Test.csprojò	CSharp7_3

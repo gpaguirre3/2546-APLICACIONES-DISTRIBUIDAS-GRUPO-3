@@ -1,0 +1,12 @@
+﻿D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\CategoryDTO.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\CategoryLogic.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\LoginAttemptsLogic.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\ProductDTO.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\ProductLogic.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\Properties\AssemblyInfo.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\RegistroLogic.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\UserDTO.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\UserLogic.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\Utils.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\App.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\packages.config

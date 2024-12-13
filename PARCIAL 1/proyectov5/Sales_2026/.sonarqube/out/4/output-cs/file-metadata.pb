@@ -1,0 +1,12 @@
+‚
+wD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.csutf-8L
+CD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\Utils.csutf-8T
+KD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\RegistroLogic.csutf-8P
+GD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\UserLogic.csutf-8N
+ED:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\UserDTO.csutf-8^
+UD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\Properties\AssemblyInfo.csutf-8S
+JD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\ProductLogic.csutf-8Q
+HD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\ProductDTO.csutf-8Y
+PD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\LoginAttemptsLogic.csutf-8T
+KD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\CategoryLogic.csutf-8R
+ID:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\CategoryDTO.csutf-8

@@ -1,0 +1,1 @@
+]ROD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Entities\Entities.csprojò	CSharp7_3

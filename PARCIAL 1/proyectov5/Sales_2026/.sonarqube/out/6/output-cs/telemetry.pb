@@ -1,0 +1,1 @@
+eROD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\Security.csproj¢net6.0òCSharp10

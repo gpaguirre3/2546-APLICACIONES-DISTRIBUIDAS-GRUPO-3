@@ -1,0 +1,6 @@
+﻿D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Entities\Categories.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Entities\LoginAttempts.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Entities\Products.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Entities\Properties\AssemblyInfo.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Entities\Users.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Entities\App.config

@@ -1,0 +1,1 @@
+SRED:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\BLL\BLL.csprojò	CSharp7_3

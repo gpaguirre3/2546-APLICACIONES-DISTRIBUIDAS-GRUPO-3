@@ -1,0 +1,14 @@
+‡
+|D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.MvcApplicationPartsAssemblyInfo.csutf-8t
+iD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.AssemblyInfo.csutf-8Š
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8v
+kD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\obj\Debug\net6.0\Security.GlobalUsings.g.csutf-8Z
+JD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\Program.cswindows-1252\
+SD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\Models\UserModel.csutf-8\
+SD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\Models\LoginUser.csutf-8d
+[D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\Controllers\RegisterUser.csutf-8i
+`D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\Controllers\ProductController.csutf-8g
+^D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\Controllers\LoginController.csutf-8o
+fD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\Controllers\LoginAttemptsController.csutf-8j
+aD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\Controllers\CategoryController.csutf-8c
+ZD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Security\Constants\UserConstants.csutf-8

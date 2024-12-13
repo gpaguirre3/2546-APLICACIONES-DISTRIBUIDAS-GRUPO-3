@@ -1,0 +1,4 @@
+﻿D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Test\Program.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Test\Properties\AssemblyInfo.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Test\App.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Test\packages.config

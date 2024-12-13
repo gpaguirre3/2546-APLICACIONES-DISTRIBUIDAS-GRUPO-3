@@ -1,0 +1,1 @@
+Roslyn version: 4.7.0.0Language version: CSharp7_3!Concurrent execution: enabled®©File 'D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\NWindProxyService1\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs' was recognized as generated

@@ -1,0 +1,14 @@
+﻿D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\EFRepository.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\IRepository.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\Properties\AssemblyInfo.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\RepositoryFactory.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\SalesModel.Context.tt
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\SalesModel.tt
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\SalesModel.edmx
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Entities\Categories.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Entities\Products.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Entities\Users.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\Entities\LoginAttempts.cs
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\packages.config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\App.Config
+D:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\SalesModel.edmx.diagram

@@ -1,0 +1,1 @@
+SRED:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\DAL\DAL.csprojò	CSharp7_3

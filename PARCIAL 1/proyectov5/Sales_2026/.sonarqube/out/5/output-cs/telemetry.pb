@@ -1,0 +1,1 @@
+qRcD:\ESCRITORIO\septimo\distribuidas\proyecto\Sales_2026\NWindProxyService1\NWindProxyService1.csprojò	CSharp7_3
