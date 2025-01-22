@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../ServerRMI/pom.xml" />
+        <option value="$PROJECT_DIR$/../ServersRIM/pom.xml" />
       </list>
     </option>
   </component>
