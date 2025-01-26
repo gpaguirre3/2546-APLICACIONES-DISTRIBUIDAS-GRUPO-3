@@ -1,0 +1,80 @@
+version: "3.8"
+services:
+  # Microservicio 1
+  micro-cursos:
+    build:
+      context: ./micro-cursos
+      dockerfile: Dockerfile
+    ports:
+      - "8003:8003"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/sisdb2024
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+    depends_on:
+      - mysql
+    networks:
+      - app-network
+
+  # Microservicio 2
+  cursos:
+    build:
+      context: ./estudiantes
+      dockerfile: Dockerfile
+    ports:
+      - "8002:8002"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/sisdb2024
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres
+    depends_on:
+      - postgres
+    networks:
+      - app-network
+
+  # Base de datos MySQL para micro-cursos
+  mysql:
+    image: mysql:8
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: sisdb2024
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - app-network
+
+  # Base de datos PostgreSQL para cursos
+  postgres:
+    image: postgres:14
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: sisdb2024
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+
+  # Front-end con Next.js
+  nextjs:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+# Definir redes y volúmenes compartidos
+networks:
+  app-network:
+
+volumes:
+  mysql-data:
+  postgres-data:

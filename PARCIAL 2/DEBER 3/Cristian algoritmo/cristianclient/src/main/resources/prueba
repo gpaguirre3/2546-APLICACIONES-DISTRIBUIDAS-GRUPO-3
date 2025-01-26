@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <unistd.h>
+int main(){
+    printf("Proceso en ejcución (PID: %d)\n", getpid());
+    for(int i=0; i<70; i++){
+        printf("Iteración %d..\n", i+1);
+        sleep(2);//simula proceso en ejecución
+    }
+    printf("proceso finalizado (PID: %d)\n",getpid());
+    return 0;
+}
+sudo apt update && sudo apt install gcc
+3.	sudo apt install pgrep ps procps iotop htop
+gcc proceso.c -o proceso
