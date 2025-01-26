@@ -55,6 +55,7 @@ export default function StudentList() {
     try {
       if (course && selectedStudentId !== null) {
         const selectedStudent = unregisteredStudents.find(student => student.id === selectedStudentId);
+        console.log(selectedStudent);
         if (selectedStudent) {
           const courseStudent = { id: selectedStudent.id, usuario_id: selectedStudent.id };
           await addUserToCourse(course.id, courseStudent);

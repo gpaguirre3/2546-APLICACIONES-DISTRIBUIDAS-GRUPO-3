@@ -48,6 +48,7 @@ public class CursoServiceImpl implements CursoService {
         //Optional: es un contenedor que puede o no contener un valor no nulo
         // Creo un objeto de tipo Optional y le paso el valor que me devuelve el metodo findById Curso
         Optional<Curso> optional = repository.findById(id);
+        System.out.println(optional);
         //Verifico si el objeto optional tiene un valor
         if (optional.isPresent()) {
             // Si el objeto optional tiene un valor, obtengo el valor y lo guardo en la variable curso

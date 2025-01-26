@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-@FeignClient(name = "micro-cursos", url = "http://localhost:8002/api/estudiantes/")
+//@FeignClient(name = "micro-cursos", url = "http://localhost:8002/api/estudiantes/")
+@FeignClient(name = "cursos", url = "http://cursos:8002/api/estudiantes/")
 public interface UsuarioClientRest {
 
     //Metodo para buscar un usuario por su id

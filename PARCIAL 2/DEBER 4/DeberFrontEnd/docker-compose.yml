@@ -8,11 +8,12 @@ services:
     ports:
       - "8003:8003"
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/sisdb2024
-      - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=root
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql23:3306/sisdb2024
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
     depends_on:
-      - mysql
+      - mysql23
     networks:
       - app-network
 
@@ -34,13 +35,14 @@ services:
       - app-network
 
   # Base de datos MySQL para micro-cursos
-  mysql:
-    image: mysql:8
-    ports:
-      - "3307:3306"
+  mysql23:
+    image: mysql:latest
+    restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: sisdb2024
+    ports:
+      - "3302:3306"
     volumes:
       - mysql-data:/var/lib/mysql
     networks:
