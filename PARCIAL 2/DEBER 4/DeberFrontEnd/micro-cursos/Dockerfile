@@ -1,14 +1,33 @@
-# Usar la imagen de Java
-FROM openjdk:17-jdk-slim
+#> micro-estudiantes > Dockerfile
+# NUEVO ARCHIVO
 
-# Configurar directorio de trabajo
+# ETAPA 1: COMPILATION
+
+# Usar una imagen de OpenJDK
+FROM openjdk:17-jdk-slim AS builder
+# Setear el directorio de trabajo
 WORKDIR /app
+# Copiar solo lo necesario para instalar dependencias
+COPY ./.mvn ./.mvn
+COPY ./mvnw ./mvnw
+COPY ./pom.xml ./pom.xml
+# Descargar dependencias en cache
+RUN ./mvnw dependency:go-offline
+# Copiar el codigo fuente y compilar
+COPY ./src ./src
+RUN ./mvnw clean package -DskipTests
 
-# Copiar el archivo JAR del microservicio
-COPY target/micro-cursos-0.0.1-SNAPSHOT.jar app.jar
+# ETAPA 2: IMAGEN DE PRODUCCION
 
-# Exponer el puerto del microservicio
+# Usar una imagen de OpenJDK
+FROM openjdk:17-jdk-slim
+# Setear el directorio de trabajo
+WORKDIR /app
+# Copiar el JAR desde la etapa de compilation
+COPY --from=builder /app/target/micro-cursos-0.0.1-SNAPSHOT.jar .
+# Exponer el puerto
 EXPOSE 8003
-
-# Comando para ejecutar la aplicación
-ENTRYPOINT ["java", "-jar", "app.jar"]
+# Comando de inicio
+ENTRYPOINT ["java", "-jar", "micro-cursos-0.0.1-SNAPSHOT.jar"]
+#docker build -t equipos:latest .
+# docker run --env-file .env -p 8001:8001 -d --name containerequipos equipos
