@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "138a82f4-6de5-4bb5-a0d8-2d29441aae2b",
+		"name": "cimed",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2406318"
+	},
+	"item": [
+		{
+			"name": "token Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "CimedClient",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "dOeN0gaDn3b0zhefLVZctjnMK4TZRQw1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "openid",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8040/realms/CimedRealm/protocol/openid-connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8040",
+					"path": [
+						"realms",
+						"CimedRealm",
+						"protocol",
+						"openid-connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(gateway)/doctors/test",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "(gateway)/patients/test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/patient-service/patient/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"patient-service",
+						"patient",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(gateway)/appointments/test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/appointment-service/appointments/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"appointment-service",
+						"appointments",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/doctors/test",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

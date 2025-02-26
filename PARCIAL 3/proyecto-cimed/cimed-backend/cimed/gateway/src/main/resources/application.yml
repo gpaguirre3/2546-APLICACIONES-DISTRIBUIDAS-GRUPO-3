@@ -1,0 +1,93 @@
+server:
+  port: 8095
+
+spring:
+  application:
+    name: cimed-gateway
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: ${AUTH_SERVICE_URL:http://localhost:8040}/realms/CimedRealm/protocol/openid-connect/certs
+      client:
+        registration:
+          keycloak:
+            client-id: CimedClient
+            authorization-grant-type: authorization_code
+            scope:
+              - openid
+        provider:
+          keycloak:
+            issuer-uri: ${AUTH_SERVICE_URL:http://localhost:8040}/realms/CimedRealm
+            user-name-attribute: preferred_username
+
+  cloud:
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins:
+              - 'http://localhost:4200'
+              - 'http://localhost'
+              - 'http://20.197.227.154'
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+              - HEAD
+              - PATCH
+            allowedHeaders:
+              - "*"
+            allowCredentials: true
+            maxAge: 3600
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+
+      routes:
+        - id: doctor-service
+          uri: lb://doctor-service
+          predicates:
+            - Path=/doctor-service/**
+            - Method=GET,POST,PUT,DELETE,OPTIONS,HEAD,PATCH
+          filters:
+            - StripPrefix=1
+            - TokenRelay=
+        - id: patient-service
+          uri: lb://patient-service
+          predicates:
+            - Path=/patient-service/**
+            - Method=GET,POST,PUT,DELETE,OPTIONS,HEAD,PATCH
+          filters:
+            - StripPrefix=1
+            - TokenRelay=
+        - id: appointment-service
+          uri: lb://appointment-service
+          predicates:
+            - Path=/appointment-service/**
+            - Method=GET,POST,PUT,DELETE,OPTIONS,HEAD,PATCH
+          filters:
+            - StripPrefix=1
+            - TokenRelay=
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    availability-zones:
+        defaultZone: http://localhost:8761/eureka/
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.springframework.web.HttpLogging: DEBUG
+    org.springframework.security: DEBUG
+    org.springframework.security.oauth2: DEBUG
+    org.springframework.cloud.gateway: DEBUG
